@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-printf("name:Gayithri\n");
-printf("age:16\n");
+printf("name:pooja\n");
+printf("age:18\n");
 printf("location:india\n");
 return 0;
 }
