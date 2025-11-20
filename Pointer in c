@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int a = 10;
+    int *p;
+
+    p = &a;   // Store address of a in pointer p
+
+    printf("Value of a = %d\n", a);
+    printf("Address of a = %p\n", &a);
+    printf("Pointer p stores = %p\n", p);
+    printf("Value through pointer = %d\n", *p);
+
+    return 0;
+}
+Output
+Value of a = 10
+Address of a = 0x7fff7e5b7434
+Pointer p stores = 0x7fff7e5b7434
+Value through pointer = 10
+
+
+=== Code Execution Successful ===
